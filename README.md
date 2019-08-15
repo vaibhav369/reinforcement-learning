@@ -36,3 +36,7 @@ This is a very popular problem in the control theory, and has been adapted into 
 A car is stuck in a valley. It has to get out, but the engine does not have enough power to push through in one go. So the agent has to devise a strategy to get out, by optimally using its engine to go forward, backward and (not push at all), according to what situation the car is in.
 
 ![Mountain Car GIF](https://github.com/vaibhav369/reinforcement-learning/blob/master/mountain-car/results/episode.gif)
+
+### pong
+
+pong is again an openai environment. Our agent is a paddle which can move upwards and downwards on the screen. The goal is to obviously not let the ball pass through on agent's side, and make the ball pass through the opponent's paddle. For solving the pong environment, we use a DQN again. the GIF after training is displayed at the top of readme :)
