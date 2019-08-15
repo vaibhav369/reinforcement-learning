@@ -16,4 +16,14 @@ The agent is presented with n choices of levers, where every lever pull gives so
 
 Reinforcement_learning to be of any practical use, has to be used with a function approximator, and deep-neural-networks are the best function approximators we have as of today. They are very general and apply to many different types of problems. Policy is a function within the agent which accepts environment observation as input and outputs actions. The algorithm computes the gradient of average reward gotten w.r.t agent's policy, and moves policy function in increasing direction of the gradient.
 
+### q-learning
 
+One of the standard techniques in deep-reinforcement learning is q-learning. q-values are the numerical values we attach to a particular state-action pair. So, whenever the agent finds itself in a state s, it looks at all possible actions, and takes the action with highest q value. Now, to learn q-values, we play many episodes and update our estimates using some methods, which are described better in code in the project.
+
+The results of training the CartPole environment with a few different methods are shown in the images below :-
+
+![Boltzmann Q Policy](https://github.com/vaibhav369/reinforcement-learning/blob/master/results/CartPole-v0_BoltzmannQPolicy.png)
+![Epsilon Greedy Q Policy](https://github.com/vaibhav369/reinforcement-learning/blob/master/results/CartPole-v0_EpsGreedyQPolicy.png)
+![Greedy Q Policy](https://github.com/vaibhav369/reinforcement-learning/blob/master/results/CartPole-v0_GreedyQPolicy.png)
+
+Other results can be seen in the results tab.
