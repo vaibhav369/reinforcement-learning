@@ -29,3 +29,10 @@ The results of training the CartPole environment with a few different methods ar
 ![Greedy Q Policy](https://github.com/vaibhav369/reinforcement-learning/blob/master/results/CartPole-v0_GreedyQPolicy.png)
 
 Other results can be seen in the results tab.
+
+### mountain-car
+
+This is a very popular problem in the control theory, and has been adapted into a reinforcement learning environment by openai. The problem can be described as follows :- 
+A car is stuck in a valley. It has to get out, but the engine does not have enough power to push through in one go. So the agent has to devise a strategy to get out, by optimally using its engine to go forward, backward and (not push at all), according to what situation the car is in.
+
+![Mountain Car GIF](https://github.com/vaibhav369/reinforcement-learning/blob/master/mountain-car/results/episode.gif)
